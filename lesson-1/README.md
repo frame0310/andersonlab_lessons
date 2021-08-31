@@ -18,7 +18,7 @@ In my free time, I'm interested in fishing, cars and, if possible travel with my
 
 
 # WHY
-## This course interesting for me because:  
+## _This course interesting for me because:_  
   > 1. Desire to develop in this direction. I want to understand the basic method and how DevOps works.
   > 2. Gain new knowledge and use it to enter DevOps.
   > 3. I want to develop my professional qualities.
