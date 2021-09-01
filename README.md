@@ -18,9 +18,3 @@ More details about my work experience can be found here:
 # FREE TIME
 In my free time, I'm interested in fishing, cars and, if possible travel with my family.
 
-
-# USE SSH KEY WITH WSL DHBNB031
-## _test line test line_
-
-
-
