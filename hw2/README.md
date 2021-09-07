@@ -19,25 +19,25 @@ Made with     by %your_name
 
 curl -XPOST -d'{"animal":"elephant", "sound":"whoooaaaa", "count":5}'
 http://myvm.localhost/
-elephant says whoooaaa
-elephant says whoooaaa
-elephant says whoooaaa
-elephant says whoooaaa
-elephant says whoooaaa
-Made with     by %your_name
+ elephant says whoooaaa
+ elephant says whoooaaa
+ elephant says whoooaaa
+ elephant says whoooaaa
+ elephant says whoooaaa
+ Made with     by %your_name
 '''
-*bonus points for being creative when serving '/'
+* bonus points for being creative when serving '/'
 
 
 ### The operating stage:
-*create an ansible playbook that deploys the service to the VM
-*make sure all the components you need are installed and all the directories for the app are present
-*configure systemd so that the application starts after reboot
-*secure the VM so that our product is not stolen: allow connections only to the ports 22, 80, 443. Disable root login. Disable all authentication methods exept 'public key'
-*bonus points for SSL/HTTPS support with self-signed certificates
-*bonus points for using ansible vault
+* create an ansible playbook that deploys the service to the VM
+* make sure all the components you need are installed and all the directories for the app are present
+* configure systemd so that the application starts after reboot
+* secure the VM so that our product is not stolen: allow connections only to the ports 22, 80, 443. Disable root login. Disable all authentication methods exept 'public key'
+* bonus points for SSL/HTTPS support with self-signed certificates
+* bonus points for using ansible vault
 
 
 ### Requirements
-*Debian 10
-*VirtualBox VM
+* Debian 10
+* VirtualBox VM
