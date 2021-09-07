@@ -8,7 +8,8 @@ Why on Earth would we create stuff that does not support emoji?!
 * the service accepts GET and POST methods
 * the service should receive 'JSON' object and return strings in the following manner:
 
-''' sh
+''' 
+sh
 curl -XPOST -d'{"animal":"cow", "sound":"moooo", "count": 3}'
 http://myvm.localhost/
 cow says moooo
@@ -32,7 +33,7 @@ Made with     by %your_name
 *create an ansible playbook that deploys the service to the VM
 *make sure all the components you need are installed and all the directories for the app are present
 *configure systemd so that the application starts after reboot
-*secure the VM so that our product is not stolen: allow connections only to the ports 22, 80, 443. Disable root login. Disable all authentication methods exept "public key'.
+*secure the VM so that our product is not stolen: allow connections only to the ports 22, 80, 443. Disable root login. Disable all authentication methods exept 'public key'
 *bonus points for SSL/HTTPS support with self-signed certificates
 *bonus points for using ansible vault
 
