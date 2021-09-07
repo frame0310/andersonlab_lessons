@@ -7,6 +7,7 @@ Why on Earth would we create stuff that does not support emoji?!
 * the service listen at least on port 80 (443 as an option)
 * the service accepts GET and POST methods
 * the service should receive 'JSON' object and return strings in the following manner:
+
 ''' sh
 curl -XPOST -d'{"animal":"cow", "sound":"moooo", "count": 3}'
 http://myvm.localhost/
