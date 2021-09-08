@@ -10,15 +10,13 @@ Why on Earth would we create stuff that does not support emoji?!
 
 >'''  
 >sh  
->curl -XPOST -d'{"animal":"cow", "sound":"moooo", "count": 3}'  
->http://myvm.localhost/  
+>curl -XPOST -d'{"animal":"cow", "sound":"moooo", "count": 3}' http://myvm.localhost/  
  > cow says moooo  
  > cow says moooo  
  > cow says moooo  
  >  Made with     by %your_name  
 
-curl -XPOST -d'{"animal":"elephant", "sound":"whoooaaaa", "count":5}'  
-http://myvm.localhost/  
+curl -XPOST -d'{"animal":"elephant", "sound":"whoooaaaa", "count":5}' http://myvm.localhost/  
  > elephant says whoooaaa  
  > elephant says whoooaaa  
  > elephant says whoooaaa  
