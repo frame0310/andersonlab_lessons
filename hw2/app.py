@@ -1,15 +1,18 @@
-from types import MethodDescriptorType
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+import emoji
 
 app = Flask(__name__)
 
-@app.route("/", methods=['POST'])
-def hello():
-    return jsonify(data)
+@app.route("/", methods=['POST','GET'])
+def data():
+    if request.method == 'POST':
+        r=request.get_json(force=True)
+        animal=r['animal']
+        sound=r['sound']
+        count=r['count']
+        output = '{} says {} \n'.format(animal,sound)*count +"Made with love by Sergei Sechkov \n"
+        return output
+    return "for json object"
     
-##@app.route("/health")
-##def health():
-##    return jsonify({'status': 'ok'})
-
 if __name__ == "__main__":
-    app.run(host='127.0.0.1')
+    app.run(host='127.0.0.1', port=8080)
