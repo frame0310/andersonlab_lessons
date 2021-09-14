@@ -12,7 +12,7 @@ def data():
         count=r['count']
         output = '{} says {} \n'.format(animal,sound)*count +"Made with love by Sergei Sechkov \n"
         return output
-    return "for json object"
+    return "0000000000"
     
 if __name__ == "__main__":
     app.run(host='127.0.0.1', port=8080)
